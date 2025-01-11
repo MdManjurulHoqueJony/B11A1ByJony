@@ -62,3 +62,54 @@ nav {
     background: rgb(0, 106, 80);
     color: white;
 }
+
+.pillar {
+    margin: 80px 160px 80px 160px;
+}
+
+.pillar-heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.pillar-card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pillar-card {
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-right: 24px;
+}
+
+.pillar-card-heading {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 13.34px;
+    margin-bottom: 12px;
+}
+
+.pillar-card-content {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
