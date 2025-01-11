@@ -21,10 +21,44 @@ nav {
 
 }
 
-.f7 {
-    font-weight: 700;
+.banner {
+    margin: 20px 160px 80px 160px;
+    padding: 80px 100px 80px 60px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: space-between;
 }
 
-.f6 {
-    font-weight: 600;
+.banner-content {
+    margin-top: 37px;
+}
+
+.banner-heading {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.banner-main-text {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.banner-btn {
+    padding: 17px 34px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: white;
 }
