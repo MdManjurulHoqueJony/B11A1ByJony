@@ -61,6 +61,7 @@ nav {
     border-radius: 8px;
     background: rgb(0, 106, 80);
     color: white;
+    border: 0;
 }
 
 .pillar {
@@ -319,4 +320,38 @@ td {
     border: 1px solid rgb(14, 14, 14);
     border-radius: 4px;
     background: rgb(198, 228, 214);
+}
+
+.recent-news {
+    margin: 0px 160px 80px 160px;
+}
+
+.news-card-1 {
+    padding: 48px;
+    display: flex;
+    margin-bottom: 24px;
+    border-radius: 24px;    
+    border: 1px solid lightgray;
+    background: white;
+}
+
+.img-border {
+    border-radius: 24px;
+}
+
+.right-content {
+    margin-left: 32px;
+}
+
+.icon-title {
+    display: flex;
+}
+
+.news-btn {
+    margin-top: 32px;
+    padding: 13px 26px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: white;
+    border: 0
 }
