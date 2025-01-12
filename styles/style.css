@@ -78,7 +78,8 @@ nav {
     margin-bottom: 32px;
 }
 
-.pillar-card-container {
+.pillar-card-container,
+.vision-card-container {
     display: flex;
     justify-content: space-between;
 }
@@ -112,4 +113,98 @@ nav {
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+.vision {
+    margin: 80px 160px 32px 160px;
+}
+
+.vision-heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.vision-text {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.vision-card-1 {
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    margin-right: 24px;
+}
+
+.vision-btn-1 {
+    margin-top: 24px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 19px 16px;
+    border: 0;
+}
+
+.vision-card-2 {
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    margin-right: 24px;
+}
+
+.vision-btn-2 {
+    margin-top: 24px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 19px 16px;
+    border: 0;
+}
+
+.vision-card-3 {
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.vision-btn-3 {
+    margin-top: 24px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 19px 16px;
+    border: 0;
 }
