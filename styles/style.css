@@ -429,4 +429,32 @@ td {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 31.5px;
+}
+
+.footer {
+    padding: 50px 160px;
+}
+
+.footer-text {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 31.5px;
+}
+
+.stroke {
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    
+}
+
+.network-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
 }
