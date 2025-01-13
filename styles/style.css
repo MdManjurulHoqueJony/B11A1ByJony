@@ -523,3 +523,19 @@ td {
     letter-spacing: 0%;
     text-align: center;
 }
+
+.hover-btn:hover {
+    background-color: black; 
+}
+
+.hover-crd:hover {
+    background-color: yellow; 
+}
+
+.two-hundred{
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
