@@ -490,6 +490,9 @@ td {
 .input-container {
     display: flex;
     margin-bottom: 24px;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .input-container input {
